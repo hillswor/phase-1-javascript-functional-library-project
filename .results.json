@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 27,
-    "passes": 18,
+    "passes": 27,
     "pending": 0,
-    "failures": 9,
-    "start": "2023-04-07T19:29:32.312Z",
-    "end": "2023-04-07T19:29:32.968Z",
-    "duration": 656
+    "failures": 0,
+    "start": "2023-04-08T02:49:51.018Z",
+    "end": "2023-04-08T02:49:51.228Z",
+    "duration": 210
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -125,7 +125,7 @@
     {
       "title": "correctly returns an empty array if no matching values are found",
       "fullTitle": "index.js myFilter correctly returns an empty array if no matching values are found",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -134,70 +134,49 @@
       "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:149:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
+      "err": {}
     },
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:153:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:161:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:165:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the last element of the collection",
       "fullTitle": "index.js myLast returns the last element of the collection",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myLast is not defined\n    at Context.<anonymous> (test/indexTest.js:173:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myLast is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myLast is not defined\n    at Context.<anonymous> (test/indexTest.js:177:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myLast is not defined"
-      }
+      "err": {}
     },
     {
       "title": "retrieves all the names of the object's own enumerable properties",
       "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myKeys is not defined\n    at Context.<anonymous> (test/indexTest.js:241:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myKeys is not defined"
-      }
+      "err": {}
     },
     {
       "title": "does not modify the original object",
@@ -211,10 +190,7 @@
       "fullTitle": "index.js myValues retrieves all the values of the object's own properties",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myValues is not defined\n    at Context.<anonymous> (test/indexTest.js:254:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myValues is not defined"
-      }
+      "err": {}
     },
     {
       "title": "does not modify the original object",
@@ -225,95 +201,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "correctly returns an empty array if no matching values are found",
-      "fullTitle": "index.js myFilter correctly returns an empty array if no matching values are found",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "correctly returns the size of the collection when an array is passed",
-      "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:149:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
-    },
-    {
-      "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
-      "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: mySize is not defined\n    at Context.<anonymous> (test/indexTest.js:153:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "mySize is not defined"
-      }
-    },
-    {
-      "title": "returns the first element of the collection",
-      "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:161:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
-    },
-    {
-      "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
-      "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myFirst is not defined\n    at Context.<anonymous> (test/indexTest.js:165:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myFirst is not defined"
-      }
-    },
-    {
-      "title": "returns the last element of the collection",
-      "fullTitle": "index.js myLast returns the last element of the collection",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myLast is not defined\n    at Context.<anonymous> (test/indexTest.js:173:7)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myLast is not defined"
-      }
-    },
-    {
-      "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
-      "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myLast is not defined\n    at Context.<anonymous> (test/indexTest.js:177:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myLast is not defined"
-      }
-    },
-    {
-      "title": "retrieves all the names of the object's own enumerable properties",
-      "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myKeys is not defined\n    at Context.<anonymous> (test/indexTest.js:241:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myKeys is not defined"
-      }
-    },
-    {
-      "title": "retrieves all the values of the object's own properties",
-      "fullTitle": "index.js myValues retrieves all the values of the object's own properties",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myValues is not defined\n    at Context.<anonymous> (test/indexTest.js:254:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myValues is not defined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "calls alert with each element passed",
@@ -325,7 +213,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -428,8 +316,71 @@
       "err": {}
     },
     {
+      "title": "correctly returns an empty array if no matching values are found",
+      "fullTitle": "index.js myFilter correctly returns an empty array if no matching values are found",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly returns the size of the collection when an array is passed",
+      "fullTitle": "index.js mySize correctly returns the size of the collection when an array is passed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
+      "fullTitle": "index.js mySize correctly returns the size of the collection (amount of keys) when an object is passed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first element of the collection",
+      "fullTitle": "index.js myFirst returns the first element of the collection",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
+      "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the last element of the collection",
+      "fullTitle": "index.js myLast returns the last element of the collection",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
+      "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "retrieves all the names of the object's own enumerable properties",
+      "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "does not modify the original object",
       "fullTitle": "index.js myKeys does not modify the original object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "retrieves all the values of the object's own properties",
+      "fullTitle": "index.js myValues retrieves all the values of the object's own properties",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

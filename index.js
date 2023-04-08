@@ -38,17 +38,37 @@ function myFind(collection, predicate) {
 }
 
 function myFilter(collection, predicate) {
-	const filtered = collection.filter(predicate);
-	return filtered;
+	return arrayEnsure(collection).filter(predicate);
 }
 
-const intArr = [-1, 4, 0, 1, 3, 2, 3, 4, 5, 6];
-const strArr = ["maru", "choux", "doge", "coco", "waychillgoldeneye", "trance"];
-const objB = { b: "b" };
-const objArr = [{ a: "a" }, objB];
+function mySize(collection) {
+	return arrayEnsure(collection).length;
+}
 
-function findCBGenerator(target) {
-	return function (currEl) {
-		return target === currEl;
-	};
+function myFirst(array, n) {
+	switch (true) {
+		case n === undefined:
+			return array[0];
+			break;
+		default:
+			return array.slice(0, n);
+	}
+}
+
+function myLast(array, n) {
+	switch (true) {
+		case n === undefined:
+			return array.slice(-1).pop();
+			break;
+		default:
+			return array.slice(parseInt(`-${n}`));
+	}
+}
+
+function myKeys(object) {
+	return Object.keys(object);
+}
+
+function myValues(object) {
+	return Object.values(object);
 }
